@@ -8,6 +8,8 @@ public class Point {
     // Constructors
     public Point() {
         this(0.0, 0.0);
+
+
     }
 
     public Point(double x, double y) {
