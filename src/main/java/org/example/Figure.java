@@ -1,3 +1,4 @@
+
 package org.example;
 
 public abstract class Figure {
@@ -16,4 +17,8 @@ public abstract class Figure {
         this.color = color;
     }
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
