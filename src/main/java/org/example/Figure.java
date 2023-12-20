@@ -16,6 +16,7 @@ public abstract class Figure {
     public void setColor(String color) {
         this.color = color;
     }
+    public abstract double area();
 
     @Override
     public String toString() {
